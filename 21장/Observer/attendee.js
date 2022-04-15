@@ -1,4 +1,4 @@
-﻿// 레지스트리 없는 attendee.js 원본
+﻿// 레지스트리1 없는 attendee.js 원본
 var Conference = Conference || {};
 Conference.attendee = function(firstName, lastName) {
   'use strict';

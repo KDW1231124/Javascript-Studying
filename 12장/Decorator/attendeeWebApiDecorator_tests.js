@@ -7,7 +7,7 @@
       underlyingFailure = '원함수 실패';
 
   // decoratedWebApi.getAll()를 실행하면 프라미스가 귀결되어 반환될 것이다
-  // done        - 비동기 처리 시 널리 쓰이는 재스민 done() 함수다
+  // done        - 비동기 처리 시 널리 쓰이는 재스민 done() 함수다.
   // expectation - 반환된 attendees에 관한 기대식을 적용할 함수
   function getAllWithSuccessExpectation(done,expectation) {
     decoratedWebApi.getAll().then(

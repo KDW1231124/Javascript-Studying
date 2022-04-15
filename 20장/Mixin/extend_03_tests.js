@@ -19,7 +19,7 @@
     });
   });
 
-  it("mixin이 빈 객체일 경우 target을 변경하지 않는다", function() {
+  it("mixin이 빈 객체일 경우 target을 변경하지 않는다.", function() {
     var target = {
       property1: "프로퍼티1",
       method1: function method1() {

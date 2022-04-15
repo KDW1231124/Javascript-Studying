@@ -11,7 +11,7 @@ Conference.WidgetTools.attendeeNames = function(sandbox,
 
   sandbox.attendeeNames = {
 
-    // 참가자 이름 배열로 귀결되는 프라미스를 반환한다.
+    // 참가자 이름 배열로 귀결되는 프라미스를 반환한다..
     getAll: function getAll() {
       return attendeeWebApi.getAll()
         .then(function extractNames(attendees) {

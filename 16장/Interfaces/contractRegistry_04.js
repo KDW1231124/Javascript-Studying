@@ -29,7 +29,7 @@ ReliableJavaScript.contractRegistry = function() {
 
     messages: {
       nameMustBeString: '규약명은 문자열이어야 합니다',
-      evaluatorMustBeFunction: '평가기는 함수만 가능합니다',
+      evaluatorMustBeFunction: '평가기는 함수만 가능합니다.',
       nameMustBeRegistered: "'_'은 레지스트리에 없는 규약입니다",
       failedContract: "다음 객체는 '_' 규약 위반입니다: "
     },

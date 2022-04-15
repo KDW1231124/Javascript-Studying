@@ -17,7 +17,7 @@
       Array.prototype.forEach = originalForEach;
     });
 
-    it("callbackFcn이 함수가 아니면 예외를 던진다", function() {
+    it("callbackFcn이 함수가 아니면 예외를 던진다.", function() {
 
       var i,
           nonFunction = [

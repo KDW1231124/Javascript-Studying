@@ -2,7 +2,7 @@
 Conference.attendeeProfileService = function() {
   'use strict';
   var messages = {
-    httpFailure: 'HTTP 요청 실패!'
+    httpFailure: 'HTTP 요청 실패!!'
   };
   return {
     // 참가자 프로필에 대한 프라미스를 반환한다

@@ -10,7 +10,7 @@
   });
 
   describe('생성', function() {
-    it('new로 만들어야 한다', function() {
+    it('new로 만들어야 한다.', function() {
       expect(function() {
         ContractRegistry();
       }).toThrow(new Error(ContractRegistry.messages.newRequired));

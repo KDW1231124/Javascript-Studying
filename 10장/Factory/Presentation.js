@@ -13,5 +13,5 @@ Conference.Presentation = function(title, presenter) {
 
 Conference.Presentation.messages = {
   mustUseNew: 'Presentation은 반드시 "new"로 생성해야 합니다.',
-  titleRequired: 'title은 필수 입력 항목입니다.'
+  titleRequired: 'title은 필수 입력 항목입니다..'
 };
